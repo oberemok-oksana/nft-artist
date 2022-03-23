@@ -111,3 +111,34 @@ video {
   color: rgba(0, 0, 0, 0.5);
   transition: all 1s;
 }
+
+.button-buy {
+  display: block;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 3px;
+  max-width: fit-content;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+}
+
+.button-buy:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.button-buy:active {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.card-img {
+  flex-basis: 70%;
+}
+
+.card-description {
+  flex-basis: 30%;
+}
