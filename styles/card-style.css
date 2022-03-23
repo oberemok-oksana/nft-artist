@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: calc(100vh - 145px);
+}
+
+.body {
+  margin: 0 70px;
+}
+
+.title {
+  margin: 0;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.card-img:hover {
+  transform: scale(1.02);
+  transition: all 1s;
+}
